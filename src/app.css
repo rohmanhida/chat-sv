@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-display: "Playfair Display", "serif";
+  --font-text: "Lora", "sans-serif";
+  --color-base-light: #faf4ed;
+  --color-base-dark: #232136;
+  --color-surface-light: #fffaf3;
+  --color-surface-dark: #2a273f;
+  --color-overlay-light: #f2e9e1;
+  --color-overlay-dark: #393552;
+  --color-muted-light: #9893a5;
+  --color-muted-dark: #6e6a86;
+  --color-subtle-light: #797593;
+  --color-subtle-dark: #908caa;
+  --color-text-light: #575279;
+  --color-text-dark: #e0def4;
+  --color-love-light: #b4637a;
+  --color-love-dark: #eb6f92;
+  --color-gold-light: #ea9d34;
+  --color-gold-dark: #f6c177;
+  --color-rose-light: #d7827e;
+  --color-rose-dark: #ea9a97;
+  --color-pine-light: #286983;
+  --color-pine-dark: #3e8fb0;
+  --color-foam-light: #56949f;
+  --color-foam-dark: #9ccfd8;
+  --color-iris-light: #907aa9;
+  --color-iris-dark: #c4a7e7;
+  --color-highlightlow-light: #f4ede8;
+  --color-highlightlow-dark: #2a283e;
+  --color-highlightmed-light: #dfdad9;
+  --color-highlightmed-dark: #44415a;
+  --color-highlighthigh-light: #cecacd;
+  --color-highlighthigh-dark: #56526e;
+}
